@@ -12,3 +12,7 @@ def collect_party_guests(file_path="guests.csv"):
             age = input(f"Enter {name}'s age: ")
 
             writer.writerow([name, age])
+
+        print(f"Guest list saved to {file_path}.")
+
+collect_party_guests()
