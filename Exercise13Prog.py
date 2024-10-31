@@ -8,3 +8,5 @@ def collect_party_guests(file_path="guests.csv"):
             name = input("Enter guest's name (or type 'done' to finish): ")
             if name.lower() == 'done':
                 break
+
+            age = input(f"Enter {name}'s age: ")
