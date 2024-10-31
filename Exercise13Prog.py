@@ -10,3 +10,5 @@ def collect_party_guests(file_path="guests.csv"):
                 break
 
             age = input(f"Enter {name}'s age: ")
+
+            writer.writerow([name, age])
